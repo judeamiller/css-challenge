@@ -4,9 +4,9 @@ body {
 }
 
 header {
-	background-color: black;
+	background-color: #3f4247;
 	font-family: "Liberation Mono",Monospaced, SansSerif;
-	color: lawngreen;
+	color: #3dce3f;
 }
 
 h1 {
@@ -31,8 +31,47 @@ h1 {
 	height: 300px;
 	widows: 400px;
 	align: right;
-	padding: 10em;
+	padding: 1em;
+}
+
+.about-me {
+	background-color: #002eff;
+	font-family: "Liberation Mono", Monospaced, SansSerif;
+	color: white;
+
+}
+
+.about-me img[src"images/stunning.jpg"] {
+
+}
+
+.about-me span {
+	color: yellow;
 
 
 }
 
+section h2 {
+	text-align: right;
+}
+
+.form-wrapper {
+	background-color: green;
+	margin: 5em;
+	color: lawngreen;
+	font-family: "Liberation Mono", Monospaced, SansSerif;
+}
+
+.form-wrapper h2 {
+	text-align: left;
+}
+
+footer {
+	background-color: black;
+	font-family: "Liberation Mono", Monospaced, SansSerif;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	padding: .8em;
+	height: 4em;
+}
