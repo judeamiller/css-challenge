@@ -54,10 +54,14 @@ h1 {
 section h2 {
 	text-align: right;
 }
+#contact-form {
+	background-color: #3f4247;
+	padding: 1em;
+}
 
 .form-wrapper {
 	background-color: green;
-	margin: 5em;
+	margin: 3em;
 	color: lawngreen;
 	font-family: "Liberation Mono", Monospaced, SansSerif;
 }
