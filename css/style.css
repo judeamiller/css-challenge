@@ -8,7 +8,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Liberation Mono", Monospaced, SansSerif;
+	font-family: "Liberation Mono", monospace, sans-serif;
 }
 
 .container {
@@ -113,6 +113,7 @@ h1 {
 	color: white;
 	padding: 2em;
 	margin-top: 4em;
+
 }
 
 .about-me h2 {
@@ -124,7 +125,7 @@ h1 {
 	color: yellow;
 }
 
-#picard-pic {
+.picard-pic {
 	border: solid white .3em;
 	float: left;
 	height: 12em;
@@ -135,13 +136,34 @@ section h2 {
 	text-align: right;
 }
 
+
+
 table {
+	width: 100%;
 	background-color: #3f4247;
-	color: white;
+	color: lawngreen;
 	border-collapse: collapse;
 	border: 3em solid white;
-	fon
+}
 
+
+th {
+
+	border: .2em solid white;
+	text-align: left;
+	padding-left: .2em;
+	padding-right: 15em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+
+
+td {
+	border: .2em solid white;
+	padding-left: .2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 #contact-form {
