@@ -1,0 +1,24 @@
+body {
+	margin: 0em;
+	padding: 0em;
+}
+
+header {
+	size:  ;
+	background-color: black;
+	font-family: "Liberation Mono",Monospaced, SansSerif;
+	color: lawngreen;
+}
+
+h1 {
+	margin-left: 5%;
+	display: inline-block;
+}
+
+.instructions-wrapper {
+	border: .3em solid black;
+}
+
+.instructions-wrapper img {
+	float: right;
+}
