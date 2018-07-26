@@ -94,12 +94,23 @@ input {
 	display: block;
 }
 
+button {
+	background-color: lawngreen;
+	border: none ;
+	height: 2em;
+	margin-top: .8em;
+	font-family: "Liberation Mono", Monospaced, SansSerif;
+	font-size: 1em;
+}
 
+textarea {
+	font-family: "Liberation Mono", Monospaced, SansSerif;
+}
 
 footer {
 	background-color: black;
 	font-family: "Liberation Mono", Monospaced, SansSerif;
-	font-size: 1.2em;
+	font-size: .8em;
 	color: white;
 	text-align: center;
 	padding: .8em;
