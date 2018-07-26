@@ -47,17 +47,23 @@ h1 {
 	background-color: #002eff;
 	font-family: "Liberation Mono", Monospaced, SansSerif;
 	color: white;
-
+	padding: 2em;
 }
 
-.about-me img[src"images/stunning.jpg"] {
-
+.about-me h2 {
+	text-align: left;
 }
+
 
 .about-me span {
 	color: yellow;
+}
 
-
+#picard-pic {
+	border: solid white .3em;
+	float: left;
+	height: 12em;
+	margin: 2em;
 }
 
 section h2 {
@@ -87,6 +93,8 @@ label {
 input {
 	display: block;
 }
+
+
 
 footer {
 	background-color: black;
