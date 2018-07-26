@@ -1,11 +1,11 @@
 body {
 	margin: 0em;
 	padding: 0em;
+	font-family: "Liberation Mono", Monospaced, SansSerif;
 }
 
 header {
 	background-color: #3f4247;
-	font-family: "Liberation Mono",Monospaced, SansSerif;
 	color: #3dce3f;
 }
 
@@ -29,14 +29,17 @@ h1 {
 
 
 .instructions-wrapper img[src="images/captain-janeway.png"] {
-	height: 300px;
-	widows: 400px;
 	align: right;
-	padding: 1em;
+	display: inline-block;
+	height: 12em;
+	position: relative;
+	padding: 3em;
 }
 
+
+
 .instructions-content {
-	font-family: "Liberation Mono", Monospaced, SansSerif;
+	display: inline-block;
 }
 
 .instructions-content h2{
@@ -45,7 +48,6 @@ h1 {
 
 .about-me {
 	background-color: #002eff;
-	font-family: "Liberation Mono", Monospaced, SansSerif;
 	color: white;
 	padding: 2em;
 }
@@ -69,6 +71,16 @@ h1 {
 section h2 {
 	text-align: right;
 }
+
+table {
+	background-color: #3f4247;
+	color: white;
+	border-collapse: collapse;
+	border: 3em solid white;
+	fon
+
+}
+
 #contact-form {
 	background-color: #3f4247;
 	padding: 1em;
@@ -78,7 +90,6 @@ section h2 {
 	background-color: green;
 	margin: 3em;
 	color: lawngreen;
-	font-family: "Liberation Mono", Monospaced, SansSerif;
 	padding: 1em;
 }
 
@@ -99,7 +110,6 @@ button {
 	border: none ;
 	height: 2em;
 	margin-top: .8em;
-	font-family: "Liberation Mono", Monospaced, SansSerif;
 	font-size: 1em;
 }
 
