@@ -21,6 +21,7 @@ h1 {
 	padding-top: 5em;
 }
 
+
 .instructions-wrapper {
 	border: .3em solid black;
 	margin: .8em;
@@ -32,6 +33,14 @@ h1 {
 	widows: 400px;
 	align: right;
 	padding: 1em;
+}
+
+.instructions-content {
+	font-family: "Liberation Mono", Monospaced, SansSerif;
+}
+
+.instructions-content h2{
+	text-align: left;
 }
 
 .about-me {
@@ -64,6 +73,7 @@ section h2 {
 	margin: 3em;
 	color: lawngreen;
 	font-family: "Liberation Mono", Monospaced, SansSerif;
+	padding: 1em;
 }
 
 .form-wrapper h2 {
