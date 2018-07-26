@@ -8,6 +8,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Liberation Mono", Monospaced, SansSerif;
 }
 
 .container {
@@ -62,11 +63,6 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-body {
-	margin: 0em;
-	padding: 0em;
-	font-family: "Liberation Mono", Monospaced, SansSerif;
-}
 
 header {
 	background-color: #3f4247;
