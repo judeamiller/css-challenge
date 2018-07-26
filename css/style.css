@@ -4,7 +4,6 @@ body {
 }
 
 header {
-	size:  ;
 	background-color: black;
 	font-family: "Liberation Mono",Monospaced, SansSerif;
 	color: lawngreen;
@@ -15,10 +14,25 @@ h1 {
 	display: inline-block;
 }
 
-.instructions-wrapper {
-	border: .3em solid black;
+.container img[src="images/welcome.gif"] {
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding-top: 5em;
 }
 
-.instructions-wrapper img {
-	float: right;
+.instructions-wrapper {
+	border: .3em solid black;
+	margin: .8em;
 }
+
+
+.instructions-wrapper img[src="images/captain-janeway.png"] {
+	height: 300px;
+	widows: 400px;
+	align: right;
+	padding: 10em;
+
+
+}
+
