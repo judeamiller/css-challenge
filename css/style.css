@@ -33,13 +33,14 @@ h1 {
 	display: inline-block;
 	height: 12em;
 	position: relative;
-	padding: 3em;
 }
 
 
 
 .instructions-content {
 	display: inline-block;
+	width: 60%;
+	padding: 3em;
 }
 
 .instructions-content h2{
@@ -120,7 +121,7 @@ textarea {
 footer {
 	background-color: black;
 	font-family: "Liberation Mono", Monospaced, SansSerif;
-	font-size: .8em;
+	font-size: 1.2em;
 	color: white;
 	text-align: center;
 	padding: .8em;
