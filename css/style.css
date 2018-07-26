@@ -70,6 +70,14 @@ section h2 {
 	text-align: left;
 }
 
+label {
+	display: block;
+}
+
+input {
+	display: block;
+}
+
 footer {
 	background-color: black;
 	font-family: "Liberation Mono", Monospaced, SansSerif;
