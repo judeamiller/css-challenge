@@ -16,6 +16,7 @@ html, body {
 	padding: 0 2rem;
 }
 
+
 .clearfix {
 	clear: both;
 }
@@ -62,7 +63,10 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-
+@font-face {
+	font-family: "Liberation Mono";
+	src: url("http://allfont.net/allfont.css?fonts=liberation-mono");
+}
 
 header {
 	background-color: #3f4247;
@@ -78,8 +82,7 @@ h1 {
 	display: block;
 	margin: auto;
 	width: 50%;
-	padding-top: 5em;
-	margin-bottom: 4em;
+	padding: 5em;
 }
 
 
@@ -131,6 +134,7 @@ h1 {
 	height: 12em;
 	margin: 2em;
 }
+
 
 section h2 {
 	text-align: right;
