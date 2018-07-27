@@ -140,38 +140,27 @@ header h1 {
 }
 
 
-section h2 {
+section:nth-child(4) h2 {
 	text-align: right;
 	margin-top: 0;
 }
 
-
-table {
+section:nth-child(4) table {
 	width: 100%;
-	background-color: #3f4247;
-	color: lawngreen;
-	border-collapse: collapse;
-	border: 3em solid white;
+	color: lime;
+	padding-bottom: 3em;
 }
 
-th {
 
-	border: .2em solid white;
+section:nth-child(4) table td,
+section:nth-child(4) table th{
 	text-align: left;
-	padding-left: .2em;
-	padding-right: 15em;
-	padding-top: .5em;
-	padding-bottom: .5em;
+	background-color:#3f4247;
+	padding: 10px;
 }
 
 
 
-td {
-	border: .2em solid white;
-	padding-left: .2em;
-	padding-top: .5em;
-	padding-bottom: .5em;
-}
 
 .contact-form {
 	background-color: #3f4247;
@@ -207,6 +196,7 @@ button {
 	background-color: lawngreen;
 	border: none ;
 	height: 2em;
+	width: 5em;
 	margin-top: .8em;
 	font-size: 1em;
 }
@@ -221,5 +211,5 @@ footer {
 	color: white;
 	text-align: center;
 	padding: .8em;
-	height: 4em;
+	height: 3.5em;
 }
