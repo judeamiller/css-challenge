@@ -65,7 +65,7 @@ body { width: 100%;}
 ******************************************************/
 @font-face {
 	font-family: "Liberation Mono";
-	src: url("http://allfont.net/allfont.css?fonts=liberation-mono");
+	src: url("/css/fonts/LiberationMono-Regular-webfont.woff");
 }
 
 header {
@@ -73,7 +73,7 @@ header {
 	color: #3dce3f;
 }
 
-h1 {
+header h1 {
 	margin-left: 5%;
 	display: inline-block;
 }
