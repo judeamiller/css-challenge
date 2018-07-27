@@ -206,12 +206,11 @@ button {
 }
 
 textarea {
-	font-family: "Liberation Mono", Monospaced, SansSerif;
+	font-family: "liberation_monoregular", Monospaced, SansSerif;
 }
 
 footer {
 	background-color: black;
-	font-family: "Liberation Mono", Monospaced, SansSerif;
 	font-size: 1.2em;
 	color: white;
 	text-align: center;
