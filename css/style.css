@@ -63,6 +63,9 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+
+/***font info ***/
 @font-face {
 	font-family: 'liberation_monoregular';
 	src: url('../fonts/LiberationMono-Regular-webfont.eot');
@@ -73,6 +76,7 @@ body { width: 100%;}
 	font-style: normal;
 }
 
+/**** header ***/
 header {
 	background-color: #3f4247;
 	color: #3dce3f;
@@ -83,6 +87,7 @@ header h1 {
 	display: inline-block;
 }
 
+/*** welcome to my homepage**/
 .container img[src="images/welcome.gif"] {
 	display: block;
 	margin: auto;
@@ -90,7 +95,7 @@ header h1 {
 	padding: 5em;
 }
 
-
+/** instructions **/
 .instructions-wrapper {
 	display: flex;
 	align-items: flex-start;
@@ -104,8 +109,6 @@ header h1 {
 	padding: 2em;
 }
 
-
-
 .instructions-content {
 	flex: 1;
 	padding: 2em;
@@ -115,18 +118,17 @@ header h1 {
 	text-align: left;
 }
 
+/** about me **/
 .about-me {
 	background-color: #002eff;
 	color: white;
 	padding: 2em;
 	margin-top: 4em;
-
 }
 
 .about-me h2 {
 	text-align: left;
 }
-
 
 .about-me span {
 	color: yellow;
@@ -139,7 +141,7 @@ header h1 {
 	margin: 2em;
 }
 
-
+/**skills**/
 section:nth-child(4) h2 {
 	text-align: right;
 	margin-top: 0;
@@ -160,6 +162,7 @@ section:nth-child(4) table th{
 	padding: .5em;
 }
 
+/**contact form**/
 .contact-form {
 	background-color: #3f4247;
 	padding: 1em;
@@ -203,6 +206,7 @@ textarea {
 	font-family: "liberation_monoregular", Monospaced, SansSerif;
 }
 
+/** footer**/
 footer {
 	background-color: black;
 	font-size: 1.2em;
