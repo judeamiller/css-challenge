@@ -65,7 +65,7 @@ body { width: 100%;}
 ******************************************************/
 @font-face {
 	font-family: "Liberation Mono";
-	src: url("/css/fonts/LiberationMono-Regular-webfont.woff");
+	src: url("/css/fonts");
 }
 
 header {
@@ -87,24 +87,23 @@ header h1 {
 
 
 .instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
 	border: .3em solid black;
 	margin: .8em;
 }
 
 
-.instructions-wrapper img[src="images/captain-janeway.png"] {
-	align: right;
-	display: inline-block;
+.instructions-wrapper img {
 	height: 12em;
-	position: relative;
+	padding: 2em;
 }
 
 
 
 .instructions-content {
-	display: inline-block;
-	width: 60%;
-	padding: 3em;
+	flex: 1;
+	padding: 2em;
 }
 
 .instructions-content h2{
