@@ -191,10 +191,16 @@ td {
 
 label {
 	display: block;
+	padding-top: .5em;
 }
 
 input {
 	display: block;
+}
+
+input, textarea {
+	width: 40%;
+	padding: .4em;
 }
 
 button {
